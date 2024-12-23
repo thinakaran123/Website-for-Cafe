@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thina's Cafe</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="hero_title">Thina's Cafe</h1>
+    <div id="whole_products_container">
+      <div class="product_container" data-name="Baklava" data-price="$ 6.50">
+        <img
+          src="./images/image-baklava-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Baklava</p>
+          <p class="product_price">$ 6.50</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="Baklava">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+
+      <!-- product 2 -->
+      <div class="product_container" data-name="Brownie" data-price="$ 6.15">
+        <img
+          src="./images/image-brownie-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Brownie</p>
+          <p class="product_price">$ 6.15</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="Brownie">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+
+      <!-- product 3 -->
+      <div class="product_container" data-name="Redcake" data-price="$ 7.00">
+        <img
+          src="./images/image-cake-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Red Velvet Cake</p>
+          <p class="product_price">$ 7.00</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="Redcake">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+
+      <!-- product 4 -->
+      <div
+        class="product_container"
+        data-name="CremeBrulee"
+        data-price="$ 5.00"
+      >
+        <img
+          src="./images/image-creme-brulee-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Creme Brulee</p>
+          <p class="product_price">$ 5.00</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="CremeBrulee">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- product 5 -->
+      <div class="product_container" data-name="Macaron" data-price="$ 8.00">
+        <img
+          src="./images/image-macaron-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Macaron</p>
+          <p class="product_price">$ 8.00</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="Macaron">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- product 6 -->
+      <div class="product_container" data-name="Meringue" data-price="$ 5.00">
+        <img
+          src="./images/image-meringue-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Meringue</p>
+          <p class="product_price">$ 5.00</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="Meringue">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- product 7 -->
+      <div class="product_container" data-name="PannaCotta" data-price="$ 7.35">
+        <img
+          src="./images/image-panna-cotta-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Panna Cotta</p>
+          <p class="product_price">$ 7.35</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="PannaCotta">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- product 8 -->
+      <div class="product_container" data-name="Tiramisu" data-price="$ 5.50">
+        <img
+          src="./images/image-tiramisu-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Tiramisu</p>
+          <p class="product_price">$ 5.50</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="Tiramisu">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- product 9 -->
+      <div class="product_container" data-name="Waffle" data-price="$ 6.50">
+        <img
+          src="./images/image-waffle-mobile.jpg"
+          class="product_image"
+          alt=""
+        />
+        <div id="food_data">
+          <p class="product_name">Waffle</p>
+          <p class="product_price">$ 6.50</p>
+        </div>
+        <div class="container_of_input_and_button">
+          <div class="quantity_box" data-name="Waffle">
+            <img src="./images/icons8-minus-21.png" class="minus_icon" /><input
+              type="text"
+              value="0"
+            /><img src="./images/icons8-plus-21.png" class="plus_icon" />
+          </div>
+          <button class="add_to_cart_button">Add to Cart</button>
+          <button class="remove_item">Remove</button>
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+    <div>
+      <div id="form_page_1">
+        <form action="">
+          <label for=""
+            >Mail <input type="text" id="mail_input" />
+            <p class="error_msgs">Invalid mail</p>
+          </label>
+          <label for=""
+            >Password <input type="password" id="password_input"
+          /></label>
+          <label for=""
+            >Confirm Password
+            <input type="password" id="confirm_password_input" />
+            <p class="error_msgs">Passwords are not same !!!</p>
+          </label>
+
+          <a id="right_arrow_page_1"
+            ><img src="./images/icons8-right-arrow-40.png" alt=""
+          /></a>
+        </form>
+      </div>
+
+      <!-- form 2 -->
+      <div id="form_page_2">
+        <form action="">
+          <label for=""
+            >Name <input type="text" id="name_input" placeholder="full name" />
+            <p class="error_msgs">Please provide name</p>
+          </label>
+          <label for=""
+            >Phone
+            <input type="text" id="phone_input" placeholder="225-526-1234" />
+            <p class="error_msgs">Please provide proper phone number</p>
+          </label>
+          <label for=""
+            >Post code
+            <input type="text" id="postcode_input" placeholder="N2H 3W1" />
+            <p class="error_msgs">Please provide post code</p>
+          </label>
+          <label for=""
+            >Address
+            <input
+              type="text"
+              id="address_input"
+              placeholder="unit no / house no / street name"
+            />
+            <p class="error_msgs">Please provide address</p>
+          </label>
+          <label for=""
+            >City
+            <input type="text" id="city_input" placeholder="city name" />
+            <p class="error_msgs">Please provide city</p>
+          </label>
+          <label for="province">Choose a Province:</label>
+          <select id="province" name="province">
+            <option value="">Select a Province</option>
+
+            <option value="Alberta">Alberta</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Newfoundland and Labrador">
+              Newfoundland and Labrador
+            </option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+          </select>
+          <p class="error_msgs">Please select province</p>
+
+          <a id="payment_btn">Payment</a>
+        </form>
+      </div>
+
+      <!-- form 3 -->
+      <div id="form_page_3">
+        <form action="">
+          <label for=""
+            >Card number<input
+              type="text"
+              id="card_number"
+              placeholder="1234-0231-4567-7856"
+            />
+            <p class="error_msgs">Please provide valid card number</p></label
+          >
+          <div id="expiry_date_cvv">
+            <div id="expiry_date">
+              <label for=""
+                >Expiry<input type="text" id="expiry_month" placeholder="OCT" />
+                <p class="error_msgs">
+                  Please provide valid expiry month
+                </p></label
+              >
+              <label for=""
+                ><input type="text" id="expiry_year" placeholder="2024" />
+                <p class="error_msgs">
+                  Please provide valid expiry month
+                </p></label
+              >
+            </div>
+            <div>
+              <label for=""
+                >CVV<input type="text" id="cvv" placeholder="012" />
+                <p class="error_msgs">Please provide valid cvv</p></label
+              >
+            </div>
+          </div>
+          <a id="final_btn">Submit</a>
+        </form>
+      </div>
+    </div>
+
+    <div id="receipt">
+      <h1>Receipt</h1>
+      <p>
+        <span class="label_inside_receipt">Name: </span>
+        <span id="receipt_customer_name"></span>
+      </p>
+      <p>
+        <span class="label_inside_receipt">Phone number: </span>
+
+        <span id="receipt_customer_phone"></span>
+      </p>
+      <p>
+        <span class="label_inside_receipt">Passcode: </span>
+
+        <span id="receipt_customer_passcode"></span>
+      </p>
+      <p>
+        <span class="label_inside_receipt">Address: </span>
+
+        <span id="receipt_customer_address"></span>
+      </p>
+
+      <p>
+        <span class="label_inside_receipt">City: </span>
+
+        <span id="receipt_customer_city"></span>
+      </p>
+
+      <p>
+        <span class="label_inside_receipt">Province: </span>
+
+        <span id="receipt_customer_province"></span>
+      </p>
+      <p>
+        <span class="label_inside_receipt">Mail: </span>
+        <span id="receipt_customer_mail"></span>
+      </p>
+      <p>
+        <span class="label_inside_receipt">Debit/Credit Card number: </span>
+        <span id="receipt_customer_card_number"></span>
+      </p>
+
+      <p>
+        <span class="label_inside_receipt">Card Expiry Month: </span>
+        <span id="receipt_customer_card_expiry_month"></span>
+      </p>
+      <p>
+        <span class="label_inside_receipt">Card Expiry Year: </span>
+        <span id="receipt_customer_card_expiry_year"></span>
+      </p>
+      <hr />
+
+      <h3>Products:</h3>
+
+      <div id="receipt_products"></div>
+      <p><b>Subtotal:</b> $ <span id="totalprice"></span></p>
+      <p><b>Total:</b> $ <span id="totalpricewithtax"></span></p>
+      <button id="okay_button">Okay</button>
+    </div>
+    <button id="check_out_button">Check Out !!!</button>
+    <!-- error pop up box for quantity -->
+    <div id="error_popup_quantity">
+      <a id="x_box" onclick="xboxclick()"><span>X</span></a>
+      <p>Please purchase more than $ 10.00 dollars</p>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
